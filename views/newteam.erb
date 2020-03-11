@@ -1,11 +1,56 @@
 <!DOCTYPE html>
 <html>
- <head>
-  <meta charset="UTF-8">
-  <title>Basketball Team Signup</title>
- </head>
- <body>
+<head>
+   <meta charset="UTF-8">
+   <title>Basketball Team Signup</title>
+</head>
+   <body>
+   <h1>Create a Basketball Team!</h1><br>
+      <form method="POST" action="/team">
+         <label>Team Name: <input type="text" name="name" /></label><br/>
+         <label>Coach: <input type="text" name="coach" /></label><br/>
+         <label>Point Guard: <input type="text" name="pg" /></label><br/>
+         <label>Shooting Guard: <input type="text" name="sg" /></label><br/>
+         <label>Power Forward: <input type="text" name="pf" /></label><br/>
+         <label>Small Forward: <input type="text" name="sf" /></label><br/>
+         <label>Center: <input type="text" name="c" /></label><br/><br/>
+         <input type="submit" id="Submit" />
+      </form>
+    <%# 
+    <label for="tname">Team Name:</label>
+    <input type="text" id="tname" name="name"><br><br>
+
+    <label for="coach">Coach:</label>
+    <input type="text" id="coach" name="coach"><br><br>
+
+    <lable for="pg">Point Guard</lable>
+    <input type="text" id="pg" name="pg"><br><br>
+
+    <lable for="sg">Shooting Guard:</lable>
+    <input type="text" id="sg" name="sg"><br><br>
+
+    <lable for="sf">Small Forwad:</lable>
+    <input type="text" id="sf" name="sf"><br><br>
+
+    <lable for="pf">Power Forwad:</lable>
+    <input type="text" id="pf" name="pf"><br><br>
+
+    <lable for="pf">Center:</lable>
+    <input type="text" id="c" name="c"><br><br>
+    <input type="submit" id="submit" value="Submit">  %>
+    
+
+
  </body>
 </html>
 
 
+<%# 
+    <label>Team Name: <input type="text" name="name" /></label><br/>
+    <label>Coach: <input type="text" name="coach" /></label><br/>
+    <label>Point Guard: <input type="text" name="pg" /></label><br/>
+    <label>Shooting Guard: <input type="text" name="sg" /></label><br/>
+    <label>Power Forward: <input type="text" name="pf" /></label><br/>
+    <label>Small Forward: <input type="text" name="sf" /></label><br/>
+    <label>Center: <input type="text" name="c" /></label><br/><br/>
+    <input type="submit" id="Submit" /> %>

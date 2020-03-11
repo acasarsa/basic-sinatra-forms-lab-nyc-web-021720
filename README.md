@@ -64,3 +64,13 @@ Pass the tests! Make sure you read the test output carefully!
 [capybara-click_button]: http://www.rubydoc.info/gems/capybara/Capybara%2FNode%2FActions%3Aclick_button
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/basic-sinatra-forms-lab' title='Sinatara Forms Lab'>Sinatara Forms Lab</a> on Learn.co and start learning to code for free.</p>
+
+
+
+ <h2>Team Name: <%= @name%></h2>
+            <h2>Coach:  <%= @coach %> </h2>
+            <h2>Shooting Guard:  <%= @sg %> </h2>
+            <h2>Small Forward:  <%= @sf %> </h2>
+            <h2>Power Forward:  <%= @pf %> </h2>
+            <h2>Center:  <%= @c %> </h2>
+        
